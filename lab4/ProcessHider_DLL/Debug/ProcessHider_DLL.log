@@ -1,0 +1,7 @@
+﻿  main.cpp
+main.obj : error LNK2019: unresolved external symbol _MH_Initialize@0 referenced in function "bool __cdecl set_nt_hook(void)" (?set_nt_hook@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _MH_Uninitialize@0 referenced in function _DllMain@12
+main.obj : error LNK2019: unresolved external symbol _MH_CreateHook@12 referenced in function "bool __cdecl set_nt_hook(void)" (?set_nt_hook@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _MH_EnableHook@4 referenced in function "bool __cdecl set_nt_hook(void)" (?set_nt_hook@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol _MH_DisableHook@4 referenced in function _DllMain@12
+C:\Users\Aleh\source\repos\WebCam_IIPU\Debug\ProcessHider_DLL.dll : fatal error LNK1120: 5 unresolved externals
